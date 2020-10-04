@@ -1,0 +1,17 @@
+http://weevil.myspecies.info, weevil
+http://www.e-m-b.org/content/emb-editorial-board, mosquito
+example.com, examples
+http://www.mit.edu/research/, education
+http://www.nyu.edu, plans and information
+http://www.starwoodhotels.com, hotel
+http://www.go.com, captain marvel
+sohu.com, test
+www.apache.org, most popular open source
+http://nginx.org/2014.html, mainline version
+http://cbc.ca, local updates
+http://www.vaestoliitto.fi, vanhemmuus
+www.notactualsite.fi/notrealpage, not real content
+http://washington.edu, life of engineering alumna
+http://www.google.com, search engine
+http://www.iltalehti.fi, online newspaper
+http://www.reddit.com, front page of the internet
