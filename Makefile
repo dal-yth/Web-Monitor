@@ -2,7 +2,7 @@ NAME = web_monitor
 
 CC = gcc
 
-#FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 
 MKDIR_P = mkdir -p
 
@@ -18,10 +18,9 @@ OBJ = $(addprefix $(DIR_O)/,$(SOURCES:.c=.o))
 
 all: obj_dir $(NAME)
 
-#remember to add $(FLAGS) again to gcc...
 $(NAME): $(OBJ)
 	@echo "Creating executable..."
-	@$(CC) -o $(NAME) $(OBJ)
+	@$(CC) -o $(NAME) $(FLAGS) $(OBJ)
 	@echo "\e[1m$(NAME) created!\e[0m"
 
 obj_dir:

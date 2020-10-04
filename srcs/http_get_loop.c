@@ -22,6 +22,7 @@ static int	strjoin_data(t_monitor *cur, char buf[BUF_SIZE])
 	temp = strjoin(cur->data, buf);
 	free(cur->data);
 	cur->data = temp;
+	return (1);
 }
 
 /*
@@ -84,7 +85,6 @@ static int	http_get_request(t_monitor *cur)
 	struct addrinfo	hints;
 	struct addrinfo	*result;
 	struct addrinfo	*rp;
-	char			request[REQUEST_SIZE];
 	int				sockfd;
 	int				i;
 

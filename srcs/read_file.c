@@ -16,7 +16,7 @@ static char	*extract_host(char *page)
 		host += 7;
 	else if (strstr(host, "https://") != NULL)
 		host += 8;
-	if (endptr = strchr(host, '/'))
+	if ((endptr = strchr(host, '/')))
 		*endptr = '\0';
 	return (host);
 }
@@ -29,10 +29,8 @@ static char	*extract_host(char *page)
 */
 static char	*reformat(char *str)
 {
-	int		i;
 	char	*end;
 
-	i = 0;
 	if (str != NULL)
 	{
 		while (isspace(*str))
