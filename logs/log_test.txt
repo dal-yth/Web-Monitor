@@ -1,0 +1,7 @@
+2020-10-04 18:10:26
+Host: washington.edu
+Status: HTTP/1.1 302 Found
+Response time: 179ms
+Url: http://washington.edu
+Content requirement: life of engineering alumna
+Content found: No
